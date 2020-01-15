@@ -1,0 +1,979 @@
+*{ 
+    margin: 0;
+    padding:0px;
+}
+/* css body */
+body {
+    font-family: VErdana, geneva, Arial, Helvetica, sans-serif;
+}
+/* css menu  */
+.menu{
+    background-color: #ffffe6;
+    height: 75px;
+    width: 100%;
+}
+.menu-btn{
+    list-style-type: none;
+}
+.menu-btn li {
+    float: right;
+    text-align: center;
+}
+.menu-btn li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+}
+.img-icon{
+    width: 150px;
+    height: 40px;
+    padding: 18px 0 10px;
+    margin-left: 30px;
+    float: left;
+}
+.menuAndSearch{
+    margin-right: 60px;
+    padding-top: 15px;
+}
+/* css search  pada menu */
+.search{
+    height: 30px;
+    padding-top: 9px;
+    float: right;
+}
+.search-box{  
+    top: 0px;
+    height: 25px;
+    width: 230px;
+}
+.content-top{
+    margin-bottom: 47px;
+}
+.btnSearch{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.userIcon{
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+}
+.option-userIcon {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.option-userIcon a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.option-userIcon a:hover {background-color: #ddd;}
+
+.userIcon:hover .option-userIcon {display: block;}
+
+.img-profile{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.top-left{
+    float: left;
+    width: 50%;
+    height: 500px;
+    /*border: 1px solid red;*/
+}
+.img-contentTop{
+    height: 500px;
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.content-topLeft{
+    margin: 150px 0 0 120px;
+}
+.lineContent-top{
+    width: 150px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+/*############# beberapa kelas yang diikuti di home ################*/
+.kelas{
+    background-color: #ffeecc;
+    height: 350px;
+    padding-left: 120px;
+}
+.class-title{
+    padding: 30px 0 10px 0;
+}
+.class-card{
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 198px;
+    height: 160px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.class-card:hover{
+    box-shadow: 5px 5px 5px silver;
+}
+.img-card{
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 2px 80px;
+}
+.line-card1{
+    width: 100px;
+    height: 3px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.class-name{
+    height: 70px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 10px;
+    /*color: pink;*/
+}
+.line-card2{
+    width: 130px;
+    color: silver;margin-left: 32px;
+}
+.class-abj{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+.viewAllClass{
+    float: right;
+    margin-right: 107px;
+    margin-top: 20px;
+}
+.viewAllClass p{
+    background-color: white;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.viewAllClass a{
+    text-decoration: none;
+    color: black;
+}
+/*############## page kelas katalog #####*/
+.class-card-katalog{
+    float: left;
+    margin-top: 10px;
+    width: 350px;
+    height: 220px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+.class-card-katalog:hover{
+    box-shadow: 5px 5px 5px silver;
+}
+.headCalatalog-left{
+    float: left;
+}
+.addClass, .joinClass{
+    margin-top: 20px;
+}
+.addClass a, .joinClass  a{
+    text-decoration: none;
+    color: black;
+}
+.addClass p, .joinClass p{
+    background-color: orange;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    height: 40px;
+    border:  3px solid silver;
+    padding-top: 15px;
+}
+.addClass p:hover, .joinClass p:hover{
+    background-color: #4CAF50;
+}
+.viewClassTeacher:hover{
+    background-color: #4CAF50;
+}
+.editClassTeacher:hover{
+    background-color: #1a1aff;
+}
+.deleteClassTeacher:hover{
+    background-color: #ff1a1a;
+}
+.img-card-katalog{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 2px 145px;
+}
+.kelas-katalog{
+    background-color: #ffeecc;
+    height: 700px;
+    padding-left: 120px;
+    /* padding-right: 120px; */
+}
+.line-katalog{
+    width: 200px;
+    margin: 10px 0 0 77px;;
+}
+.line-katalog-left{
+    height: 80px;
+    width: 5px;
+    background-color: orange;
+    border-radius: 5px;
+    margin: 20px 0 0 20px;
+    float: left;
+}
+.nameClass-katalog{
+    text-align: center;
+    margin: 15px 0 0 15px;
+}
+.optKelas a{
+    text-decoration: none;
+    color: black;
+}
+.optKelas p{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    float: left;
+    background-color: orange;
+    padding: 3px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 90px;
+}
+.viewKelas a{
+    text-decoration: none;
+    color: black;
+}
+.viewKelas p{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    float: left;
+    background-color: orange;
+    padding: 6px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 290px;
+}
+.viewKelas p:hover{
+    background-color: #4CAF50;  
+}
+.page{
+    text-align: center;
+    background-color: #ffeecc;
+}
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: orange;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/*######### detail platform  home bawah ###########*/
+.content-platform{
+    background-color: #fff2e6;
+    height: 250px;
+}
+.platform-left{
+    float: left;
+    width: 300px;
+    margin-left: 120px;
+    margin-right: 190px;
+}
+.platform-detail{
+    line-height: 2;
+    padding: 40px 0 15px 0;
+    font-size: 17px;
+}
+.platform-detail span{
+    font-weight: bold;
+}
+.logoInstitusi{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.news{
+    background-color:  #ffeecc;
+    height: 200px;
+    padding-left: 120px;
+}
+
+/*######### login ############*/
+.formLogin{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid silver;
+    border-top: 3px solid orange;
+    box-shadow: 5px 5px 5px silver;
+    padding: 20px 40px 40px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.opt-login{
+    text-align: center;
+    color: #808080;
+    padding-bottom: 15px;
+}
+.loginWith{
+    float: left;
+    border: 1px solid silver;
+    padding: 5px 19px 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.loginWith img{
+    width: 30px;
+    height: 30px;
+}
+.loginWith p{
+    float: right;
+    padding: 5px 0 0 15px;
+}
+.login-title{
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+
+}
+.input{
+    height:35px; 
+    border-radius: 5px; 
+    border: 1px solid silver;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.login-btn{
+    text-align: center;
+    width: 310px;
+    padding: 10px 0 10px 0;
+    background-color: orange;
+    border-radius: 5px;
+}
+.img-iconLogin{
+    width: 100px;
+    height: 100px;
+    margin-left: 630px;
+    margin-top: 100px;
+}
+
+/*######### profil ##########*/
+.profileUser{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 527px;
+    border: 1px solid silver;
+    box-shadow: 5px 5px 5px silver;
+}
+.imgProfile{
+    margin-top: 80px;
+    float: left;
+    margin-left: 250px;
+    margin-right: 25px;
+}
+.imgProfile img{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 170px;
+    height: 210px;
+}
+.profileDetail{
+    padding-left: 25px;
+    margin-top: 80px;
+}
+.profileDetail p{
+    margin-top: 27px;
+}
+#aButton{
+    text-decoration: none;
+}
+.editButton{
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 0 15px 0;
+    background-color: orange;
+}
+.editButton p{
+    font-weight: bold;
+
+}
+
+
+/*######## footer ########*/
+.footer{
+    height: 60px;
+    background-color: #0e0e0b;
+}
+.footer p {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column10, .column20, .column30, .column40, .column50, .column60, .column70, .column80, .column90, .column100 {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+.column10 {
+    width: 10%;
+}
+.column20 {
+    width: 20%;
+}
+.column30 {
+    width: 30%;
+}
+.column40 {
+    width: 40%;
+}
+.column50 {
+    width: 50%;
+}
+.column60 {
+    width: 60%;
+}
+.column70 {
+    width: 70%;
+}
+.column80 {
+    width: 80%;
+}
+.column90 {
+    width: 90%;
+}
+.column100 {
+    width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form{
+        width: 30%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-top: 10px;
+}
+.buatkelas{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-top: 10px;
+}
+.halaman{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.kotak{
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid silver;
+    box-shadow: 5px 5px 5px silver;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: orange;
+  color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+    max-height: calc(100vh - 300px);
+    overflow-y: auto;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.tombol {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 0 5px 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+.text, .password, .select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin: 10px;
+}
+
+.reset {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: orange;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+  float: right;
+  margin: 10px;
+}
+
+.button:hover {background-color: #4CAF50}
+
+.button:active {
+  background-color: #4CAF50;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+.input, .textarea{
+    height:35px; 
+    border-radius: 5px; 
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: footer; }
+
+.item1{
+    background-color: red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'footer footer footer footer footer footer';
+  background-color: #ffeecc; 
+
+}
+
+.grid-container > div {
+  background-color: #fff2e6;
+}
+
+/*img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+} */
+
+.daftar-menu{
+    padding-left: 100px;
+}
+
+.daftar-menu h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.clikbutton button.menubutton:hover {
+  opacity: 0.8;
+}
+
+.home-kelas{
+    width:100%
+
+}
+
+.create-post{
+    display: table;
+    margin: 10px auto;
+
+    /*border: 1px solid black;*/
+}
+
+.textpost input{
+    height: 20px;
+}
+.textpost textarea {
+  width: 700px;
+  height: 85px;
+  resize: none;
+}
+
+.isi-detail{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+.class-detail{
+    display: table;
+    margin: 10px auto;
+
+    /*border: 1px solid black;*/
+}
+
+
+.post-element{
+    display: table;
+    margin: auto;
+    /*border: 1px solid black;*/
+}
+
+.inputandbutton {
+    padding-left: 70px;
+    margin-bottom: 15px;
+}
+.inputandbutton h4{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+.isi-post{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+    
+}
+
+.isi-detail h2{
+    padding-bottom: 10px;
+}
+
+.menubutton{
+  border: none;
+  outline: 0;
+  padding: 8px;
+  margin-top: 10px;
+  color: white;
+  background-color: #474747;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+
+.foto{
+    padding-right: 30px;
+}
+.foto img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 50%;
+}
+
+.detail-post{
+    padding-left: 70px;
+}
+
+.detail-post h4{
+    text-align: left;
+    padding-top: 15px;
+}
+.detail-post p{
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+.postbutton{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #474747;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.clikbutton button.postbutton:hover {
+  opacity: 0.8;
+}
+
+.card-folder{
+    display: table;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+.card-folder a{
+    text-align: left;
+}
+
+.judulfl {
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.tabel-anggota{
+    display: table;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    height: auto;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 20px;
+}
+
+
+.tabel-anggota a{
+    display: block;
+    width: 115px;
+    height: 35px;
+    padding-top: 5px;
+    background: orange;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.baris-1-anggota{
+    display: flex;
+}
+
+.nama-tabel{
+    flex: 1;
+  /* Grow to rest of container */
+  /* Just so it's visible */
+  width: 300px;
+}
+
+.action-tabel{
+    width: 200px;
+    text-align: center;
+  /* Just so it's visible */
+}
+
+.NIM-tabel{
+    width: 400px;
+    text-align: center;
+  /* Just so it's visible */
+}
+
+
+.baris-2-anggota{
+    display: flex;
+    padding-top: 15px;
+}
+
+.p-nama{
+    flex: 1;
+  /* Grow to rest of container */
+  /* Just so it's visible */
+  width: 300px;
+}
+
+.baris-2-anggota a{
+    width: 200px;
+  /* Just so it's visible */
+}
+
+.formpostbutton{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  color: white;
+  background-color: #474747;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.clikbutton a{
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
